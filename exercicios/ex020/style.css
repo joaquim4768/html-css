@@ -1,0 +1,16 @@
+div{
+    display: inline-block;
+    background-color:rgb(180, 179, 179);
+    text-align: center;
+    border:1px solid black;
+    height:200px;
+    width:200px;
+    padding-top:10px;
+}
+div:hover{
+    background-color:rgb(110, 146, 247);
+}
+
+a{
+    text-decoration:none;
+}

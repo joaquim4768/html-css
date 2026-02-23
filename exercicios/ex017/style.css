@@ -1,0 +1,32 @@
+body{
+    background-image: linear-gradient(to right, rgb(111, 191, 111), rgb(99, 160, 99));
+    color:rgb(25, 50, 25);
+    font-family:Arial, Helvetica, sans-serif;
+    /*
+    Medidas Absolutas
+    cm, mm, in, px, pt, pc 
+    
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+
+    16px geralmente = 1em
+    */
+    font-size: 1.1em;
+
+    /*font-weight: ;
+      font-style ;
+      text-decoration ;
+    lighter normal bold bolder
+
+    shorthand font
+    font-style -> font-weight -> font-size -> font-family
+    */
+}
+h1{
+    /*Isso é uma shorthand font*/
+    font: italic bold 2em 'Work Sans', arial, sans-serif;
+}
+
+h2{
+    font: bold 'Work Sans', arial, sans-serif;
+}

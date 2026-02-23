@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'my heart';
+    src: url(fonts/myheart.otf) format('opentype'), url(fonts/myheart.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color:black;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-family:'my heart', Arial, Helvetica, sans-serif;
+    font-size:1.5em;
+}

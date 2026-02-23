@@ -1,0 +1,21 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    min-height:100vh;
+    background-image: url(imagens/espaco.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+#astro{
+    
+
+    width:clamp(230px, 30vw, 400px);
+}

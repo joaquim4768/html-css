@@ -1,0 +1,31 @@
+h1{
+   display:flex;
+   justify-content:center; 
+}
+
+body
+{
+color:white;    
+background-color:rgb(22, 22, 22);
+}
+
+.video{
+    display:flex;
+    justify-content:center;
+    margin-top:30px;
+}
+
+.linkCurso{
+    display:flex;
+    justify-content:center; 
+    margin-top:30px;
+}
+.linkC{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+}
+.buttonVoltar{
+    display:flex;
+    justify-content:center; 
+    margin-top:30px;
+}

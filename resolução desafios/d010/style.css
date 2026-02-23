@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'idroid';
+    src: url(assets/fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+}
+html, body {
+    overflow-x: hidden;
+}
+p, li, h1, h2, a {
+    overflow-wrap: break-word;
+}
+header{
+    background-image:linear-gradient(to top, rgb(9, 104, 55), rgb(56, 193, 109));
+    color:white;
+    padding: 1px 10px 3px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header > p{
+    color:rgba(255, 255, 255, 0.841);
+}
+header > h1, header > p{
+    text-align: center;
+}
+nav > a{
+    color: #f5f5f5;
+    text-shadow: 0px 2px 2px rgba(0,0,0,0.5);
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: 600;
+}
+nav > a:hover{
+     color: #69da87;
+}
+body{
+    background-color:rgb(119, 214, 156);
+    margin: 0;
+}
+.linkText{
+    text-decoration: none;
+    color:#336a41;
+    font-weight: bold;
+}
+article{
+    background-color:rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 10px;
+}
+article > h1, article > h2{
+    background-image:linear-gradient(to right, rgb(150, 238, 178), white);
+    font-family: 'idroid';
+    color: rgb(16, 103, 49);
+    padding: 5px;
+    padding-left: 8px;
+}
+ul{
+    list-style:none;
+    padding-left: 0px;
+    columns:2;
+}
+li::before{
+    content:"✔";
+}
+.caixaInfo{
+    background-color:rgb(170, 228, 189);
+    border-radius: 15px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right:0px;
+}
+.androidV{
+    color: black;
+}
+footer{
+    background-color: rgb(10, 121, 49);
+}
+footer > p {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0;
+    text-align:center;
+    color: rgba(255, 255, 255, 0.882);   
+}
+footer > p > strong{
+    color:white;
+    font-weight: bold;
+}
+
