@@ -1,2 +1,4 @@
 # html-css
-curso gustavo guanabara html5 e css3
+Curso Gustavo Guanabara Html5 e Css3
+
+Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
