@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         *{
             margin:0;
@@ -12,18 +12,29 @@
 
         body{
             height: 100vh;
-            background-color:black;
+
+           /* background-color:black;
             background-image:url('imagens/wallpaper002.jpg');
 
             background-position: center center;
             background-repeat:no-repeat;
             background-size: cover;
+            background-attachment:fixed;
+            */
+
+            /*Shorthand background
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
 
         main{
             background-color: white;
-            width:400px;
-            padding: 10px;
+            width:70%;
+            max-width:400px;
+            padding: 15px;
             margin:auto;
             border-radius: 10px;
             border: 1px solid darkblue;
@@ -40,7 +51,7 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium rem saepe animi voluptatibus corrupti officia exercitationem assumenda ipsum debitis cum culpa consectetur sapiente repudiandae iusto neque odio necessitatibus deserunt odit quis, reiciendis molestias! Neque soluta et laborum sunt, illo repudiandae perferendis fuga qui esse beatae unde nisi porro eos, nihil officia culpa magnam debitis tenetur eveniet asperiores officiis quam nostrum? Ipsum possimus labore dolorem fugiat et, rerum veniam accusamus voluptatum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium rem saepe animi voluptatibus corrupti officia exercitationem assumenda ipsum debitis cum culpa consectetur sapiente repudiandae iusto neque odio necessitatibus deserunt odit quis, reiciendis molestias! Neque soluta et laborum sunt, illo repudiandae perferendis fuga qui esse beatae unde nisi porro eos, nihil officia culpa magnam debitis tenetur eveniet asperiores officiis quam nostrum? Ipsum possimus labore dolorem fugiat et, rerum veniam accusamus voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi aspernatur temporibus laboriosam voluptatem praesentium aliquid, necessitatibus pariatur perspiciatis maiores, debitis, magni nostrum facilis impedit soluta quibusdam cupiditate. Laborum hic in explicabo, cum quisquam tenetur consequuntur veritatis nisi adipisci aliquam architecto incidunt eius aut neque amet, provident error temporibus nobis dolore iure? Excepturi optio atque aspernatur nesciunt voluptas repellendus iste eum libero quis ducimus assumenda voluptatem sequi dolorem, possimus cum cupiditate cumque? Deleniti placeat magnam sint iste vero similique, fuga ipsum eaque dolorum, dignissimos qui perferendis odit ipsam debitis. Odit hic minima natus itaque dolorem doloremque laborum vel et, ipsa autem, quos ut fuga. Amet ipsa modi vitae, rem fuga hic dolorem cum soluta libero voluptas illum placeat, qui sequi. Magni, non soluta. Nam maxime optio dolores quaerat minus totam. Facilis iure beatae, possimus illum quam laboriosam provident veritatis praesentium atque qui neque vel incidunt suscipit? Voluptas quidem, quibusdam earum sunt dolorum tempora nesciunt aspernatur enim magnam minima! Magni, odio totam tempora asperiores cumque inventore vel necessitatibus, tempore dolorem aperiam nobis sequi neque animi! Eaque, deserunt assumenda ea quia nisi placeat odio consectetur accusamus aspernatur explicabo rem ratione tempora blanditiis dicta nostrum facere. Quis, molestiae facere consequatur error eligendi eos exercitationem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias quo placeat debitis doloribus fugiat vero odit reprehenderit dolorem exercitationem accusantium unde corporis id consequatur eaque delectus eveniet nesciunt quibusdam voluptatum, animi enim esse rerum. Eaque repellat distinctio pariatur ex sunt! Tempore, reiciendis. Eaque fugit, quos, deleniti corrupti voluptatem tenetur debitis, provident animi minus eveniet placeat cupiditate molestias cum dicta. Alias minus quia in placeat inventore aliquid aperiam autem, dolores fugit molestiae delectus enim? Laboriosam doloremque molestias recusandae, fuga, debitis omnis harum blanditiis, deleniti vel earum voluptate quae similique atque id laudantium ab beatae rem amet! Voluptates et dolor vel ipsa!</p>
     </main>
 </body>
 </html>
