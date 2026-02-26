@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+/*--------------------------------------Global--------------------------*/
+*{
+    margin:0px;
+    padding:0px;
+}
+/*----------------------------------Semântico--------------------------*/
+html, body{
+    min-height:100vh;
+    background-color:darkgray;
+}
+header{
+    background-color:black;
+    color:white;
+    text-align:center;
+}
+
+section{
+    padding-top:10vh;
+    padding-bottom:10vh;
+    padding-left:30px;
+    line-height:1.75em;
+}
+footer{
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
+/*------------------------------Classes semânticas------------------*/
+section.normal{
+    background-color: white;
+    color:black;
+}
+section.imagem{
+    background-color:rgb(52, 52, 52);
+    color:white;
+}
+section.imagem > pre{
+    width: 400px;
+    background-color:rgba(0, 0, 0, 0.25);
+}
+/*-------------------------------Tipografia------------------------*/
+
+pre{
+    white-space:pre-line;
+}
+
+/*--------------------------Classes Tipografias----------------------*/
+header > h1{
+    padding-top:50px;
+    font-variant:small-caps;
+}
+header > p{
+    padding-bottom: 50px;
+}
+header a, footer a{
+    color:white;
+    text-decoration:none;
+    font-weight:bolder;
+}
+/*----------------------------------Interações-----------------------*/
+header a:hover, footer a:hover{
+    text-decoration:underline;
+}
