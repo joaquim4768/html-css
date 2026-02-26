@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+header > h1{
+    font-family:'Passion One', sans-serif;
+    font-style: normal;
+    font-size: clamp(42px, 12vw, 152px);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top: 35px;
+    padding-bottom: 5px;
+}
+header > h3{
+    display:flex;
+    justify-content:center;
+    padding-bottom: 25px;
+    font-weight: normal;
+}
+header a{
+    font-weight: bold;
+    padding-left: 6px;
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration:underline;
+}
+header a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+header h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+section{
+    padding-left: 25px;
+}
+.conteudo{
+    background-color: white;
+}
+
+.parallax{
+    min-height: 100vh;
+
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:fixed;
+    margin:0px;
+    padding:0px;
+}
+.parallax p{
+    padding:20px;
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+}
+div.container{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 30px;
+    width: 60%;
+    max-width: 500px;
+}
+#p1{
+    background-image:url(assets/imagens/background001.jpg);
+}
+#p2{
+    background-image:url(assets/imagens/background002.jpg);
+}
+.poesia{
+    white-space:pre-line;
+    font-family:"Merienda", cursive;
+    font-size: clamp(5px, 3vw, 30px)
+}
+
+footer{
+    background-color:black;
+    color: white;
+}
+footer p{
+    text-align:center;
+    padding: 10px;
+    font-weight: normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+footer a{
+    color:white;
+    text-decoration:none;
+
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+footer a:hover{
+    text-decoration:underline;
+}
