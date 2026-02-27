@@ -11,6 +11,15 @@
         table{
             width:500px;
             border-collapse:collapse;
+            position:relative;
+        }
+        caption{
+            font-size:1.5em;
+            font-weight:bold;
+            padding:10px;
+            background-color:lightgray;
+            border-top-right-radius:5px;
+            border-top-left-radius:5px;
         }
         td, th{
             border:1px solid black;
@@ -24,8 +33,19 @@
         }
 
         thead, tfoot{
-            background-color:gray;
+            background-color:rgb(75, 74, 74);
             color:white;
+        }
+        thead > tr > th{
+            position:sticky;
+            top:0;
+            background-color:rgb(75, 74, 74);
+        }
+        tbody > tr:nth-child(even){
+            background-color:lightgray;
+        }
+        tbody > tr:nth-child(odd){
+            background-color:white;
         }
     </style>
 </head>
@@ -33,6 +53,7 @@
     <h1>Uso de tabelas grandes</h1>
     <!--Anatomia para tabelas grandes
         THEAD
+            CAPTION
             tr, td, th
         TBODY
             tr, td, th
@@ -40,11 +61,14 @@
             tr, td, th
         -->
             <table>
+                <caption>
+                    População das Unidades Federativas
+                </caption>
                 <thead>
                     <tr>
-                        <th>Estado</th>
-                        <th>População 2025</th>
-                        <th>País Comparável</th>
+                        <th scope="col">Estado</th>
+                        <th scope="col" style="width: 50px;">População 2025</th>
+                        <th scope="col">País Comparável</th>
                     </tr>
                 </thead>
 
@@ -187,7 +211,7 @@
 
                 <tfoot>
                     <tr>
-                        <th>Total de Habitantes</th>
+                        <th scope="row">Total de Habitantes</th>
                         <td class="numero"><strong>213.421.037</strong></td>
                         <td>----</td>
                     </tr>
