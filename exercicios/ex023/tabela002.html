@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        table{
+            width:500px;
+            border-collapse:collapse;
+        }
+        td, th{
+            border:1px solid black;
+            padding:10px;
+        }
+        td{
+            text-align:center;
+        }
+        td.numero{
+            text-align:right;
+        }
+
+        thead, tfoot{
+            background-color:gray;
+            color:white;
+        }
+        tfoot{
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--Anatomia para tabelas grandes
+        THEAD
+            tr, td, th
+        TBODY
+            tr, td, th
+        TFOOT
+            tr, td, th
+        -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Estado</th>
+                        <th>População 2025</th>
+                        <th>País Comparável</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>São Paulo</td>
+                        <td class="numero">46 081 801</td>
+                        <td>Argentina</td>
+                    </tr>
+                    <tr>
+                        <td>Minas Gerais</td>
+                        <td class="numero">21 393 441</td>
+                        <td>Chade</td>
+                    </tr>
+                    <tr>
+                        <td>Rio de Janeiro</td>
+                        <td class="numero">17 223 547</td>
+                        <td>Zimbabwe</td>
+                    </tr>
+                    <tr>
+                        <td>Bahia</td>
+                        <td class="numero">14 870 907</td>
+                        <td>Benim</td>
+                    </tr>
+                    <tr>
+                        <td>Paraná</td>
+                        <td class="numero">11 890 517</td>
+                        <td>Haiti</td>
+                    </tr>
+                    <tr>
+                        <td>Rio Grande do Sul</td>
+                        <td class="numero">11 233 263</td>
+                        <td>Emirados Árabes Unidos</td>
+                    </tr>
+                    <tr>
+                        <td>Pernambuco</td>
+                        <td class="numero">9 562 007</td>
+                        <td>Israel</td>
+                    </tr>
+                    <tr>
+                        <td>Ceará</td>
+                        <td class="numero">9 268 836</td>
+                        <td>Áustria</td>
+                    </tr>
+                    <tr>
+                        <td>Pará</td>
+                        <td class="numero">8 711 196</td>
+                        <td>Serra Leoa</td>
+                    </tr>
+                    <tr>
+                        <td>Santa Catarina</td>
+                        <td class="numero">8 187 029</td>
+                        <td>Laos</td>
+                    </tr>
+                    <tr>
+                        <td>Goiás</td>
+                        <td class="numero">7 423 629</td>
+                        <td>Líbia</td>
+                    </tr>
+                    <tr>
+                        <td>Maranhão</td>
+                        <td class="numero">7 018 211</td>
+                        <td>Paraguai</td>
+                    </tr>
+                    <tr>
+                        <td>Amazonas</td>
+                        <td class="numero">4 321 616</td>
+                        <td>Panamá</td>
+                    </tr>
+                    <tr>
+                        <td>Paraíba</td>
+                        <td class="numero">4 164 468</td>
+                        <td>Croácia</td>
+                    </tr>
+                    <tr>
+                        <td>Espírito Santo</td>
+                        <td class="numero">4 126 854</td>
+                        <td>Croácia</td>
+                    </tr>
+                    <tr>
+                        <td>Mato Grosso</td>
+                        <td class="numero">3 893 659</td>
+                        <td>Croácia</td>
+                    </tr>
+                    <tr>
+                        <td>Rio Grande do Norte</td>
+                        <td class="numero">3 455 236</td>
+                        <td>Mongólia</td>
+                    </tr>
+                    <tr>
+                        <td>Piauí</td>
+                        <td class="numero">3 384 547</td>
+                        <td>Uruguai</td>
+                    </tr>
+                    <tr>
+                        <td>Alagoas</td>
+                        <td class="numero">3 220 848</td>
+                        <td>Bósnia e Herzegovina</td>
+                    </tr>
+                    <tr>
+                        <td>Distrito Federal</td>
+                        <td class="numero">2 996 899</td>
+                        <td>Moldávia</td>
+                    </tr>
+                    <tr>
+                        <td>Mato Grosso do Sul</td>
+                        <td class="numero">2 924 631</td>
+                        <td>Armênia</td>
+                    </tr>
+                    <tr>
+                        <td>Sergipe</td>
+                        <td class="numero">2 299 425</td>
+                        <td>Guiné-Bissau</td>
+                    </tr>
+                    <tr>
+                        <td>Rondônia</td>
+                        <td class="numero">1 751 950</td>
+                        <td>Macedônia do Norte</td>
+                    </tr>
+                    <tr>
+                        <td>Tocantins</td>
+                        <td class="numero">1 586 859</td>
+                        <td>Barém</td>
+                    </tr>
+                    <tr>
+                        <td>Acre</td>
+                        <td class="numero">884 372</td>
+                        <td>Comores</td>
+                    </tr>
+                    <tr>
+                        <td>Amapá</td>
+                        <td class="numero">806 517</td>
+                        <td>Butão</td>
+                    </tr>
+                    <tr>
+                        <td>Roraima</td>
+                        <td class="numero">738 772</td>
+                        <td>Butão</td>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <th>Total de Habitantes</th>
+                        <td class="numero"><strong>213.421.037</strong></td>
+                        <td>----</td>
+                    </tr>
+                </tfoot>
+            </table>
+</body>
+</html>
