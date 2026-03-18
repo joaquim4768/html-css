@@ -19,7 +19,7 @@ header > h1{
 }
 
 nav{
-    display: block;
+    display: none;
 }
 
 nav > ul{
@@ -38,6 +38,19 @@ nav li > a{
 
 nav li > a:hover{
     background-color: gray;
+}
+
+#menuB{
+    background-color:rgb(48, 48, 48);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    cursor: pointer;
+}
+#menuB:hover{
+    background-color: white;
+    color: black;
 }
 
 main{
