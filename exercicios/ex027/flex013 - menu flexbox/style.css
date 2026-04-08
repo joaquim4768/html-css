@@ -21,7 +21,7 @@ header{
     background-color:gray;
 
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-between;
 }
 
@@ -32,11 +32,23 @@ main{
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
+
+
+/*Classes e Ids de tags Semânticas*/
+
+header h1{
+    color: white;
+    text-shadow: 1px 2px black;
+    padding: 10px;
+    
+}
+
 nav ul{
     list-style: none;
 
     display: flex;
     flex-flow: row wrap;
+    flex: 0 0 auto;
 }
 nav a{
     background-color: black;
@@ -51,13 +63,8 @@ nav a{
     transition: .6s;
 }
 
-/*Classes e Ids de tags Semânticas*/
-
-header h1{
-    color: white;
-    text-shadow: 1px 2px black;
-    padding: 10px;
-    
+nav span{
+    cursor: pointer;
 }
 
 main h1{
@@ -73,4 +80,36 @@ main p{
 nav a:hover{
     background-color: white;
     color: black;
+}
+
+header nav span{
+    display: none !important;
+}
+
+/*          ---------------------------------------------------------------       */
+@media screen and (max-width: 650px){
+    /*Versão Mobile (porém este exercício não será mobile first*/
+
+body{
+    background-color: green;
+}
+
+header{
+    justify-content: center;
+}
+
+nav a{
+    display: block;
+    text-align: center;
+}
+
+nav li{
+    flex: 0 0 100%;
+}
+header nav span{
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    display: block !important;
+}
 }
