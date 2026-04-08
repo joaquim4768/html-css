@@ -25,6 +25,14 @@ header{
     align-items: center;
 }
 
+nav{
+    /*border: 1px dotted black;*/
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
 main{
     background-color: white;
     margin: 10px;
@@ -33,19 +41,10 @@ main{
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
 }
 
-
-
 header > h1{
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     flex: 0 0 170px;
-}
-
-header > nav{
-    border: 1px dotted black;
-
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.4);
 }
 
 header > nav > a{
@@ -62,4 +61,20 @@ header > nav > a:hover{
     background-color: white;
     color: black;
     transition: background-color .5s;
+}
+
+@media screen and (max-width: 565px){
+
+
+    header, header > nav{
+        flex-flow: column nowrap;
+    }
+
+    header > h1{
+        flex-basis: 50px;
+    }
+
+    header > nav > a{
+        width: 90vw;
+    }
 }
